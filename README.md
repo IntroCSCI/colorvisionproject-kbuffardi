@@ -1,12 +1,19 @@
-# !!!Replace with your unique project name!!!
+# Complete Colorblindness Simulator
 
 ## Description
 
-!!!Replace with a description of what your program does!!!
+Get the red, green, and blue values from the user
+and determine if that combination creates a color that is
+black, white, grey, or another hue.
+
+Each red, green, and blue value should be between 0-255.
+
+If the user enters invalid numbers, they are prompted to 
+correct the values.
 
 ## Developer
 
-!!!Replace with your name!!!
+Kevin Buffardi
 
 ## Example
 
@@ -27,7 +34,9 @@ Here is an example of the program running:
 
 ### Variables and Data Types
 
-!!!Replace with a summary and examples of how multiple variables have been used with a variety of data types and why they have been used effectively and appropriately!!!
+I used `int` to represent red, green, and blue because images often represent colors with combinations of those three components as values between 0-255, which are whole numbers.
+
+I used `char` to represent either 'y' or 'n' to allow the user to select whether they want to repeat the program. Both 'y' and 'n' are single-letter values, that are best represented as a character.
 
 ### Input and Output
 
@@ -39,8 +48,8 @@ Here is an example of the program running:
 
 ### Iteration
 
-!!!Replace with a summary and examples of how iteration has been used effectively and appropriately!!!
+I used a do-while loop for gathering input of red, green, and blue. I used a do-while because we always want to gather the user's input *at least* once.
 
 ### File Input and Output
 
-!!!Replace with a summary and examples of how input and/or output of files have been used effectively and appropriately!!!
+!!!Replace with a summary and examples of how input and/or output of files have been used effectively and appropriately!!!   
